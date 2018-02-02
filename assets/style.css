@@ -1,0 +1,31 @@
+button {
+	
+	background-color: rgb(143, 66, 244);
+	opacity: 0.7;
+	width: auto;
+	color: black;
+	font-size: 16px;
+	margin: 5px;
+	font-family: Comic Sans MS;
+	border-radius: 8px;
+	
+} 
+label {
+	font-family: Comic Sans MS;
+}
+
+  #submitInput {
+	position: fixed;
+	right:20px;
+	background-color: white;
+	/*margin-bottom: 30px;*/
+}
+
+#btn-space{
+	margin-bottom: 30px;
+}
+
+.gif{
+
+	margin:4px;
+}

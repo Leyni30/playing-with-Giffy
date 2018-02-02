@@ -16,7 +16,7 @@ for ( var i=0; i<topic.length; i++){
 	$("#btn-space").append(makeButton);
 	//console.log(makeButton);
 
-	}
+	} 
 }
 addButton();
 
@@ -28,7 +28,7 @@ $(document).on("click", ".fancy", function(){
 
 $("#submit").on("click", function(){
 	var newInstrument = $("#new-instrument").val().trim();
-	if (!topic.includes(newInstrument)){
+	if (!topic.includes(newInstrument)&& newInstrument!==""){
 		topic.push(newInstrument);
 		addButton();
 	}
